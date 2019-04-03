@@ -1,3 +1,7 @@
+tbody {
+    transition-duration: 0.2s;
+}
+
 .top-middle{
     position: absolute;
     top: 0;
