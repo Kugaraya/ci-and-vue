@@ -14,12 +14,12 @@
             <div class="col-md-12">
                 <table class="table bg-dark my-3">
                     <tr>
-                        <td> <button class="btn btn-default btn-block" @click="addModal= true">Add</button></td>
+                        <td> <button class="btn btn-light btn-block" @click="addModal= true">Add</button></td>
                         <td><input placeholder="Search" type="search" class="form-control" v-model="search.text"
                                 @keyup="searchUser" name="search"></td>
                     </tr>
                 </table>
-                <table class="table is-bordered is-hoverable">
+                <table class="table table-striped table-hover">
                     <thead class="text-white bg-dark">
 
                         <th class="text-white">ID</th>
