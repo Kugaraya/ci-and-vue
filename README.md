@@ -10,6 +10,12 @@ Using git
 
 or simply download this repository as zip
 
+## Before using ##
+
+You are to download this assuming you are familiar of CodeIgniter's MVC architecture, VueJS and the compact features from [ci-and-layout](https://github.com/TK-Works/ci-and-layout/ "ci-and-layout") repository.
+
+If curiosity came over first, then feel free to download anyway.
+
 ## To use ##
 
 1. Check `application/config/config.php`, `assets/js/app.js`
