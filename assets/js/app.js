@@ -1,7 +1,7 @@
 Vue.component('modal', { //modal
     template: `
     <transition enter-active-class="animated bounceIn" leave-active-class="animated bounceOut">
-        <div class="modal is-active" >
+        <div class="modal animated bounceIn is-active" >
             <div class="modal-card border border border-secondary">
                 <div class="modal-card-head text-center bg-dark">
                     <div class="modal-card-title text-white">
@@ -179,4 +179,4 @@ var v = new Vue({
             v.search.text ? v.searchUser() : v.showAll(); //for preventing
         }
     }
-})
+});
