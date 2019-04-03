@@ -2,6 +2,14 @@
 
 A simple Codeigniter + VueJS CRUD application
 
+## Downloading ##
+
+Using git
+
+`git clone https://github.com/TK-Works/ci-and-vue`
+
+or simply download this repository as zip
+
 ## To use ##
 
 1. Check `application/config/config.php`, `assets/js/app.js`
