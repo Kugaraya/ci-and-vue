@@ -7,7 +7,7 @@
 <div id="app">
     <div class="container">
         <div class="row">
-            <transition enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
+            <transition leave-active-class="animated fadeOut">
                 <div class="notification is-success animated fadeIn text-center px-5 top-middle" v-if="successMSG"
                     @click="successMSG = false">{{ successMSG }}</div>
             </transition>

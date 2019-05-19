@@ -1,6 +1,6 @@
 Vue.component('modal', { //modal
     template: `
-    <transition enter-active-class="animated bounceIn" leave-active-class="animated bounceOut">
+    <transition leave-active-class="animated bounceOut">
         <div class="modal animated bounceIn is-active" >
             <div class="modal-card border border border-secondary">
                 <div class="modal-card-head text-center bg-dark">
