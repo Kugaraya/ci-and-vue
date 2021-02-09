@@ -2,6 +2,21 @@ tbody {
     transition-duration: 0.2s;
 }
 
+.content-center {
+    text-align: center;
+    margin: 0 auto ;
+}
+
+.content-right {
+    text-align: right;
+    margin-left: auto;
+}
+
+.content-left {
+    text-align: left;
+    margin-right: auto;
+}
+
 .top-middle{
     position: absolute;
     top: 0;

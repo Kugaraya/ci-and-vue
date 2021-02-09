@@ -1,7 +1,6 @@
 <ul class="nav justify-content-center bg-dark text-light">
     <li class="nav-item">
-        <a class="nav-link text-white h4" href="<?php echo base_url();?>">Codeigniter + Vue JS <img
-                src="<?php echo base_url('assets/img/civue.png');?>" width="60" height="70"></a>
+        &nbsp;
     </li>
 </ul>
 <div id="app">
@@ -20,9 +19,8 @@
                     </tr>
                 </table>
                 <table class="table table-striped table-hover">
-                    <thead class="text-white bg-dark">
-
-                        <th class="text-white">ID</th>
+                    <thead class="text-white bg-dark content-center">
+                        <th class="text-white ">ID</th>
                         <th class="text-white">Firstname</th>
                         <th class="text-white">Lastname</th>
                         <th class="text-white">Email</th>
@@ -39,12 +37,12 @@
                             <td>{{user.email}}</td>
                             <td>{{user.contact}}</td>
                             <td>{{user.address}}</td>
-                            <td>
-                                <img :src="imgGender(user.gender)" width='50' height="50">
+                            <td class="content-center">
+                                <img :src="imgGender(user.gender)" width='25' height="25">
                             </td>
-                            <td><button class="btn btn-info fa fa-edit"
+                            <td class="content-right"><button class="btn btn-info fa fa-edit"
                                     @click="editModal = true; selectUser(user)"></button></td>
-                            <td><button class="btn btn-danger fa fa-trash"
+                            <td class="content-left"><button class="btn btn-danger fa fa-trash"
                                     @click="deleteModal = true; selectUser(user)"></button></td>
                         </tr>
                         <tr v-if="emptyResult">
